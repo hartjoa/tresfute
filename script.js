@@ -12,6 +12,7 @@ const diceSides = [
 
 rollButton.addEventListener('click', () => {
   diceContainer.innerHTML = ''; // Vider le conteneur des dés avant d'en ajouter de nouveaux
+  console.log(diceContainer.innerHTML);
 
   for (let i = 0; i < 2; i++) { // Lancer deux dés
     const randomSide = diceSides[Math.floor(Math.random() * diceSides.length)];
