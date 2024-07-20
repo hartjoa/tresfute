@@ -1,0 +1,34 @@
+/* Style de base pour la page */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+#dice-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+}
+
+.dice {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: 1px solid black;
+  background-image: url('dice-sprites.png'); /* Remplacer par l'URL de votre sprite de dés */
+  background-size: cover;
+  background-position: 0 0;
+}
+
+#roll-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+s
