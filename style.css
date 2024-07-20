@@ -18,7 +18,7 @@ body {
   height: 100px;
   margin: 10px;
   border: 1px solid black;
-  background-image: url('dice-sprites.png'); /* Remplacer par l'URL de votre sprite de dés */
+  background-image: url('PixelDicePack.png');
   background-size: cover;
   background-position: 0 0;
 }
