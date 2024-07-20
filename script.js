@@ -17,7 +17,7 @@ rollButton.addEventListener('click', () => {
   for (let i = 0; i < 2; i++) { // Lancer deux dés
     const randomSide = diceSides[Math.floor(Math.random() * diceSides.length)];
     const newDice = document.createElement('div');
-    newDice.classList.add(${randomSide});
+    newDice.classList.add(randomSide);
     diceContainer.appendChild(newDice);
   }
 });
